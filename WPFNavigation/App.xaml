@@ -1,0 +1,10 @@
+﻿<Application x:Class="WPFNavigation.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:WPFNavigation.ViewModels"
+             xmlns:local="clr-namespace:WPFNavigation"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <vm:ViewModelLocator x:Key="Locator"/>
+    </Application.Resources>
+</Application>
